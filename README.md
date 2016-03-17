@@ -138,3 +138,8 @@ declare module WeChat {
     function share(options: IMessageOptions, scene: Scene, onfulfilled: () => void, onrejected: (reason) => void): void;
 }
 ```
+1 。CoreTelephony.framework  添加
+
+2 libWeChatSDK.a  替换为官网的；
+
+
